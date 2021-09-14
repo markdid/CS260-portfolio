@@ -1,41 +1,59 @@
 <!DOCTYPE html>
-<html>
+<html lang='en'>
 
 <head>
-    <!-- Metadata goes here -->
+    <meta charset='UTF-8' />
     <title>Mark's Portfolio</title>
+    <link rel='stylesheet' href='/styles/styles.css' />
+    <link rel='stylesheet' href='/styles/box-styles.css' />
 </head>
 
 <body>
+    <ul class="topnav">
+        <li><a class="active" href="/">Home</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Labs</a>
+            <div class="dropdown-content">
+                <a href="/lab1.html">Lab 1</a>
+            </div>
+        </li>
+        <!-- <li><a href="/lab1.html">Lab 1</a></li> -->
+        <li class="right"><a href="#experience">Portfolio</a></li>
+    </ul>
+
     <h1>Mark's Portfolio</h1>
     <br>
     <p>I am a computer science student at BYU. This portfolio is a project for the CS 260</p>
     <br>
     <hr />
-    <h2>Projects I have worked on</h2>
-    <ul>
-        <li>Law Library Carrel Lottery</li>
-        <li>English Connect student manager for english classes in korea</li>
-        <li><a href='https://play.google.com/store/apps/details?id=com.halllogic.payload'>Payload</a>
-            and <a href='https://play.google.com/store/apps/details?id=com.halllogic.android.towratings'>GVWR</a> Apps
-            at Hall Logic</li>
-    </ul>
+    <div id='content'>
+        <h2>Projects I have worked on</h2>
+        <ul class="projects list">
+            <li>Law Library Carrel Lottery</li>
+            <li>English Connect student manager for english classes in korea</li>
+            <li><a href='https://play.google.com/store/apps/details?id=com.halllogic.payload'>Payload</a>
+                and <a href='https://play.google.com/store/apps/details?id=com.halllogic.android.towratings'>GVWR</a>
+                Apps
+                at Hall Logic</li>
+        </ul>
 
-    <br>
+        <br>
 
-    <h2>Experience</h2>
-    <ul>
-        <li>Software Developer - Hall Labs (2020 - Present)</li>
-        <li>Web Developer - BYU Law School (2019 - 2020)</li>
-        <li>Computer Technician - BYU Law School (2016 - 2017)</li>
-    </ul>
+        <h2>Experience</h2>
+        <ul id='experience' class="experience list">
+            <li>Software Developer - Hall Labs (2020 - Present)</li>
+            <li>Web Developer - BYU Law School (2019 - 2020)</li>
+            <li>Computer Technician - BYU Law School (2016 - 2017)</li>
+        </ul>
 
-    <h2>Contact Me:</h2>
-    <ul>
-        <li><a href="https://github.com/markdid">GitHub</a> </li>
-        <li><a href="www.linkedin.com/in/mark-larsen-1b569b186">LinkedIn</a> </li>
-    </ul>
-
+        <h2>Contact Me:</h2>
+        <ul id='contact' class="contact list">
+            <li><a href="https://github.com/markdid">GitHub</a> </li>
+            <li><a href="www.linkedin.com/in/mark-larsen-1b569b186">LinkedIn</a> </li>
+        </ul>
+    </div>
 
 </body>
 
