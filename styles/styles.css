@@ -3,9 +3,21 @@ body {
     margin: 0px
 }
 
+.header-container {
+  display: flex;
+  justify-content: center;
+  background-color: lightgray;
+}
+
+.header {
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 h1 {
     color: royalblue;
-    text-align: center;
 }
 
 .list {
@@ -55,7 +67,7 @@ li a:hover, .dropdown:hover .dropbtn {
 }
 
 li.dropdown {
-  display: inline-block;
+  /* display: inline-block; */
 }
 
 .dropdown-content {
